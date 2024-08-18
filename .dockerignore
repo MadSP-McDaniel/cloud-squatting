@@ -1,0 +1,11 @@
+.git
+
+# Copied from .gitignore
+venv
+*/__pycache__
+*.pyc
+pcaps
+/analysis*
+.vscode
+key.*
+.envrc

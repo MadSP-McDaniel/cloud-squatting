@@ -1,0 +1,4 @@
+log tcp any any -> $HOME_NET 3389 (msg:"Windows Remote Desktop Protocol"; sid:1000001;)
+log tcp any any -> $HOME_NET 445 (msg:"SMB"; sid:1000002;)
+# Source: "Detecting Torrents Using Snort"
+# log tcp any any -> $HOME_NET any (msg:"P2P BitTorrenthandshake"; content:"BitTorrent protocol"; sid:1000003; rev:1;)

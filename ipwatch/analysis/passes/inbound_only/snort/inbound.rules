@@ -1,0 +1,3 @@
+log tcp any any -> $HOME_NET any (flags:S;tag:session,0,packets,1000000,bytes;sid:10000;)
+#log tcp any any -> $HOME_NET any (flow:to_server;sid:1000001;)
+#log tcp $HOME_NET any -> any any (flow:to_client;sid:1000002;)
